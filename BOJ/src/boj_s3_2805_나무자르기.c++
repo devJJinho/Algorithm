@@ -4,6 +4,7 @@
 using namespace std;
 
 /*
+ 
 @author  :  Jinho Jeong
 @date    :  2021.06.29
 
@@ -12,7 +13,6 @@ using namespace std;
 *개인 난이도 : 1/5
 *분류 : 이분 탐색
 *풀이 : 이분 탐색으로 찾아낸다.
-    
 *느낀점 : 자료 값의 최대 값을 알고 주의해서 코딩해야된다.
         
 */
