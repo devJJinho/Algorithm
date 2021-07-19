@@ -40,6 +40,7 @@ bool isValid(int x, int y)
 
 void crush(int y,bool isOdd)
 {
+    //깰 미네랄 찾기
     int x = isOdd? 1:col;
     int index=isOdd?1:-1;
     while (map[y][x] != 'x' && x <= col&&x>=1)
@@ -62,6 +63,7 @@ void crush(int y,bool isOdd)
             mineral.push({nx, ny});
         }
     }
+    //깨진 미네랄 주위 둘러보기
     while (!mineral.empty())
     {
         info curInfo = mineral.front();
@@ -73,6 +75,7 @@ void crush(int y,bool isOdd)
         minQue.push(curInfo);
         visited[curInfo.y][curInfo.x] = true;
         
+        //BFS로 해당 클러스터가 바닥까지 닿는지 체크
         while (!minQue.empty())
         {
             info curInfo = minQue.front();
@@ -96,6 +99,7 @@ void crush(int y,bool isOdd)
 
         if (!isTouch)
         {
+            //얼마나 내릴지 정하는 코드
             int diff = INF;
             for (int i = 1; i <= col; i++)
             {
@@ -114,6 +118,7 @@ void crush(int y,bool isOdd)
             }
 			diff--;
             
+            //클러스터 내리기
             for (int i = row; i >= 1; i--)
             {
                 for (int j = 1; j <= col; j++)
