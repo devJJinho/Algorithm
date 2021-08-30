@@ -7,7 +7,7 @@ using namespace std;
 @author  :  Jinho Jeong
 @date    :  2021.08.28
 
-*난이도 : ? (카카오 블라인드 문제 중 하나)
+*난이도 : ?
 *개인 풀이 시간 : 20min
 *개인 난이도 : 2/5
 *분류 : BFS
