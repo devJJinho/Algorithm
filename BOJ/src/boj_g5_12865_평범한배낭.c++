@@ -16,7 +16,7 @@ using namespace std;
 */
 
 
-//1차원 배열로 푼 경우//
+//1차원 배열로 푼 경우///
 
 int dp[MAX+1]={0};
 
