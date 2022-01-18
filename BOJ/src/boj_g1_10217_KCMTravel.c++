@@ -22,6 +22,7 @@ using namespace std;
 
 struct info{
     int airport,fee,time;
+    //연산자 오버라이딩, 부호 방향에 따라 minheap, maxheap이 결정됨
     bool operator<(const info &b)const{
         return time>b.time;
     }
