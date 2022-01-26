@@ -7,7 +7,7 @@ using namespace std;
 
 /*
 @author  :  Jinho Jeong
-@date    :  2021.08.08
+@date    :  2022.01.26
 
 *난이도 : G3
 *개인 풀이 시간 : 2.5hr 
