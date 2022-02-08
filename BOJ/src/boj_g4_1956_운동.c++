@@ -1,6 +1,6 @@
 #include <iostream>
 #define MAX 400
-#define MAX_LEN 4000000
+#define MAX_LEN 4000001
 using namespace std;
 
 /*
@@ -14,6 +14,7 @@ using namespace std;
        플로이드 와샬은 O(n^3)이지만 v가 최대 400개 인 상황에선 충분히 사용가능한 코드임.
 
 *느낀점 : 트리와 그래프 그리고 순회 방법을 숙지할 필요가 있음.
+        MAX값은 사이클이 있는 그래프를 찾기 때문에(플로이드 와샬에서 i==j일때 처리를 따로 하지 않음) 총 n개의 간선이 쓰일 수 있음 때문에 간선최대값(400)*가중치최대값(10000)+1
     
 */
 
