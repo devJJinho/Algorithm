@@ -7,7 +7,7 @@ using namespace std;
 
 /*
 @author  :  Jinho Jeong
-@date    :  2021.09.16
+@date    :  2022.02.13
 
 *난이도 : G1
 *개인 풀이 시간 : 7+@hour

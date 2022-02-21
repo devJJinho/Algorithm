@@ -15,7 +15,7 @@ using namespace std;
 *풀이 : 주어진 간선에선 cycle이 있을수도 있기 때문에 남은 간선 중에서 cycle이 없게끔 최소값 순으로 더함.
 *느낀점 : m개의 노드에선 m-1개의 간선으로 모두 연결할 수 있긴 하지만 주어진 조건에서 몇개의 가
 */
-ㅁ
+
 pair<int,int> coor[MAX+1];
 bool isSelected[MAX+1];
 struct info{
